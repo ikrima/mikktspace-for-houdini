@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <HDK_DSO_PATH>E:\Ikrima\home\houdini\personal\dso-17.0</HDK_DSO_PATH>
-    <HDK_EXE>C:\Program Files\Side Effects Software\Houdini 17.0.352\bin\hmaster.exe</HDK_EXE>
-    <HDK_GLOBAL>E:\Ikrima\home\houdini\personal</HDK_GLOBAL>
-    <HDK_HFS>C:\Program Files\Side Effects Software\Houdini 17.0.352</HDK_HFS>
-    <HDK_VERSION>17.0.352</HDK_VERSION>
+    <HDK_DSO_PATH>$(EDEV_HOMEDIR)\houdini\personal\dso-17.0</HDK_DSO_PATH>
+    <HDK_EXE>$(KL_HOUDIR)\bin\hmaster.exe</HDK_EXE>
+    <HDK_GLOBAL>$(EDEV_HOMEDIR)\houdini\personal</HDK_GLOBAL>
+    <HDK_HFS>$(KL_HOUDIR)</HDK_HFS>
+    <HDK_VERSION>17.0.482</HDK_VERSION>
     <MSVCDir>$(VCToolsInstallDir)</MSVCDir>
     <WIN32_SDK>C:\Program Files (x86)\Windows Kits\10</WIN32_SDK>
   </PropertyGroup>
